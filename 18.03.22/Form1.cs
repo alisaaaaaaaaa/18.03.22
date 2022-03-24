@@ -39,7 +39,7 @@ namespace _18._03._22
                             {
                                 if (xchildechildenode.Name == "damageLevel")
                                 {
-                                price = xchildechildenode.InnerText;
+                                damagelevel = xchildechildenode.InnerText;
                                 }
                                 if (xchildechildenode.Name == "price")
                                 {
@@ -54,14 +54,14 @@ namespace _18._03._22
                         }
                         if (xchildenode.Name.Equals("submarine"))
                         {
-                        string damagelevel = "";
+                        string damageLevel = "";
                         string price = "";
                         string depth = "";
                         foreach (XmlNode xchildechildenode in xchildenode.ChildNodes)//проходимся по полям каждого submarine
                         {
                             if (xchildechildenode.Name == "damageLevel")
                             {
-                                price = xchildechildenode.InnerText;
+                                damageLevel = xchildechildenode.InnerText;
                             }
                             if (xchildechildenode.Name == "price")
                             {
@@ -72,17 +72,18 @@ namespace _18._03._22
                                 depth = xchildechildenode.InnerText;
                             }
                         }
-                        }
+                        submarinetable.Rows.Add(new object[] { damageLevel, price, depth });
+                    }
                         if (xchildenode.Name.Equals("rocket"))
                         {
-                        string damagelevel = "";
+                        string damageLevel = "";
                         string price = "";
                         string rangeofflight = "";
                         foreach (XmlNode xchildechildenode in xchildenode.ChildNodes)//проходимся по полям каждого rocket
                             {
                             if (xchildechildenode.Name == "damageLevel")
                             {
-                                price = xchildechildenode.InnerText;
+                                damageLevel = xchildechildenode.InnerText;
                             }
                             if (xchildechildenode.Name == "price")
                             {
@@ -92,6 +93,7 @@ namespace _18._03._22
                             {
                                 rangeofflight = xchildechildenode.InnerText;
                             }
+                            rockettable.Rows.Add(new object[] { damageLevel, price, rangeofflight });
                         }
                     }
                 }
