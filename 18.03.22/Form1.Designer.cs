@@ -207,18 +207,18 @@ namespace _18._03._22
         private System.Windows.Forms.TabPage ships;
         private System.Windows.Forms.TabPage submarines;
         private System.Windows.Forms.TabPage rockets;
-        private System.Windows.Forms.DataGridView shiptable;
-        private System.Windows.Forms.DataGridViewTextBoxColumn loadcapacitucoloumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pricecoloumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn damagelevelcoloumn;
-        private System.Windows.Forms.DataGridView submarinetable;
-        private System.Windows.Forms.DataGridViewTextBoxColumn damagelevelcoloumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pricecoloumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn depthcoloumn;
-        private System.Windows.Forms.DataGridView rockettable;
-        private System.Windows.Forms.DataGridViewTextBoxColumn damagelevel2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pricecoloumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rangeofflightcoloumn;
+        public System.Windows.Forms.DataGridView shiptable;
+        public System.Windows.Forms.DataGridViewTextBoxColumn loadcapacitucoloumn;
+        public System.Windows.Forms.DataGridViewTextBoxColumn pricecoloumn;
+        public System.Windows.Forms.DataGridViewTextBoxColumn damagelevelcoloumn;
+        public System.Windows.Forms.DataGridView submarinetable;
+        public System.Windows.Forms.DataGridViewTextBoxColumn damagelevelcoloumn1;
+        public System.Windows.Forms.DataGridViewTextBoxColumn pricecoloumn1;
+        public System.Windows.Forms.DataGridViewTextBoxColumn depthcoloumn;
+        public System.Windows.Forms.DataGridView rockettable;
+        public System.Windows.Forms.DataGridViewTextBoxColumn damagelevel2;
+        public System.Windows.Forms.DataGridViewTextBoxColumn pricecoloumn2;
+        public System.Windows.Forms.DataGridViewTextBoxColumn rangeofflightcoloumn;
     }
 }
 
